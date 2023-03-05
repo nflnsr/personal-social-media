@@ -1,0 +1,3 @@
+style yg kurang
+- warna bg yg tengah kurang sesuai
+- ada efek contrast sama shadow di poto profile
