@@ -19,7 +19,7 @@ function App() {
           color="gold"
           potrait
           height={window.innerHeight}
-          width={window.innerWidth - border}
+          width={window.innerWidth}
         >
           <Notif />
           <div className="float-right px-2 py-2">
