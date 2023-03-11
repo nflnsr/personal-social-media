@@ -13,7 +13,7 @@ function App() {
   console.log("test");
   return (
     <div className="bg-black h-screen w-screen">
-      <div className="container w-max m-auto">
+      <div className="container w-screen m-auto">
         <DeviceFrameset
           device="iPhone X"
           color="gold"
