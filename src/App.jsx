@@ -12,8 +12,8 @@ import sunIcon from "./assets/sunIcon.svg";
 function App() {
   console.log("test");
   return (
-    <div className="bg-black h-screen">
-      <div className="container w-max m-auto">
+    <div className="bg-black h-screen w-screen">
+      <div className="w-max m-auto">
         <DeviceFrameset
           device="iPhone X"
           color="gold"
