@@ -18,8 +18,8 @@ function App() {
           device="iPhone X"
           color="gold"
           potrait
-          height={window.innerHeight - 100}
-          width={window.innerWidth - 100}
+          height={window.innerHeight - 80}
+          width={window.innerWidth - 80}
         >
           <Notif />
           <div className="float-right px-2 py-2">
