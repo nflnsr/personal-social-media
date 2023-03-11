@@ -12,13 +12,14 @@ import sunIcon from "./assets/sunIcon.svg";
 function App() {
   console.log("test");
   return (
-    <div className="bg-black h-screen">
-      <div className="container w-max m-auto">
+    <div className="bg-black h-full">
+      <div className="container m-auto">
         <DeviceFrameset
           device="iPhone X"
           color="gold"
           potrait
           height={window.innerHeight - 60}
+          width={window.innerWidth}
         >
           <Notif />
           <div className="float-right px-2 py-2">
@@ -49,6 +50,11 @@ function App() {
                 <SocmedCont />
               </div>
             </div>
+          <footer className="">
+            <div className="w-fit m-auto">
+              Copyright © 2023 Naufal Nasrullah ∙ All Rights Reserved
+            </div>
+          </footer>
           </div>
         </DeviceFrameset>
       </div>
