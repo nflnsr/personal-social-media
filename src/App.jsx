@@ -10,10 +10,11 @@ import Notif from "./components/notifications";
 import sunIcon from "./assets/sunIcon.svg";
 
 function App() {
+  document.body.style.overflowX = "hidden";
   if (window.innerWidth > 768) {
     return (
-      <div className="bg-black h-screen w-screen">
-        <div className="w-max m-auto lg:block">
+      <div className="bg-black h-fit w-screen">
+        <div className="w-max m-auto lg:block h-screen">
           <DeviceFrameset
             device="iPhone X"
             color="gold"
@@ -61,9 +62,8 @@ function App() {
     );
   } else {
     return (
-      <div className="bg-black h-screen w-screen">
-        <div className="w-max m-auto">
-          <Notif />
+      <div className="bg-black h-fit w-screen">
+        <div className="w-max m-auto h-screen">
           <div className="float-right px-2 py-2">
             <img src={menuIcon} alt="" />
           </div>
@@ -83,7 +83,7 @@ function App() {
                 />
               </a>
             </div>
-            <div className="">
+            <div className="py-4">
               <div className="w-fit m-auto">
                 <SocmedCont />
                 <SocmedCont />
